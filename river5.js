@@ -31,6 +31,10 @@ function readConfig (callback) {
 				}
 			catch (err) {
 				console.log ("readConfig: err == " + err.message);
+				/*
+				this is a Code Block Namespace for message
+
+				*/
 				}
 			}
 		callback (myConfig);
